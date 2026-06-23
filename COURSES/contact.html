@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/application.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container header">
+            <a href="index.html" class="logo">COURSES</a>
+            <nav class="nav">
+                <ul>
+                    <li><a class="link" href="creer.html">Créer une liste de courses</a></li>
+                    <li><a class="link" href="liste.html">Consulter les listes de courses</a></li>
+                    <li><a class="link" href="contact.html">contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1 class="titre">Contact</h1>
+
+    </header>
+
+    <div class="container">
+        <form class="formulaire">
+            <div class="form-group">
+                <label for="civility">civilite</label>
+                <div class="radio" aria-labelledby="">
+                    <label for="monsieur">
+                        <input id="monsieur" type="radio" name="civility" class="input" />Monsieur
+                    </label>
+                    <label for="madame">
+                        <input id="madame" type="radio" name="civility" class="input" />Madame
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="firstName">votre nom</label>
+                <input id="firstName" type="texte" name="firstName" class="input" placeholder="votre nom" />
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">votre prenom</label>
+                <input id="lastName" type="texte" name="lastName" class="input" placeholder="votre prenom" />
+            </div>
+            <div class="form-group">
+                <label for="email">votre email</label>
+                <input id="email" type="email" name="email" class="input" placeholder="votre email" />
+            </div>
+            <div class="form-group">
+                <label for="text">votre message</label>
+                <textarea id="text" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label>comment vous nous avez connu</label>
+                <select>
+                    <option>internet</option>
+                    <option>la tele</option>
+                    <option>les amis</option>
+                    <option>autre</option>
+                </select>
+                <label>
+                    <input type="checkbox" />
+                    je ne souhaite pas recevoir d'informations, de bons plans et de cadeaux
+                </label>
+                
+            
+        </div>
+        <button class=" button" type="button">transmettre</button>
+            </div>
+    </div>
+    <button type="button" class="btn-contact">
+        contactez-nous
+    </button>
+</body>
+
+</html>
