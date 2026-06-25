@@ -46,6 +46,9 @@
 ## git diff
 - permet de comparer 2 commits
 
+## git clone
+- permet de recuperer un fichier perdu a travers le lien sur github
+
 
 
 
