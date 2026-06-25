@@ -38,5 +38,14 @@
 - les modifications de la branche mere sont placees en dessous des modifications de la branche courante 
 - les modifications de la branche courante sont placees au dessus des modifications de la branche mere
 
+## git reset
+- permet de supprimer un commit
+- permet de revenir a un commit precis defini par son identifiant
+- attention a utiliser avec precaution
+
+## git diff
+- permet de comparer 2 commits
+
+
 
 
